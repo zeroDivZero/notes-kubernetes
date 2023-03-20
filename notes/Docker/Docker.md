@@ -1,6 +1,6 @@
 # DOCKER
 
-Open-source container runtime. Uses "Dockerfile" to build container image. Provides CLI.
+Open-source container runtime. Uses "Dockerfile" to build image. Provides CLI.
 
 Workflow: **Build, ship, run**. Turn software into image, put it in registry, then at where it runs, create container from image.
 

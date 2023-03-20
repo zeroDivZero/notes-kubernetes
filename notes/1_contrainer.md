@@ -1,6 +1,6 @@
 # CONTAINER
 
-Unit of software/deployment, includes everything needed for code to run: code, runtime, system libs, and system tools.
+Unit of software/deployment, includes everything needed for code to run: code, runtime, sys libs and tools.
 
 ## Why
 
@@ -25,7 +25,7 @@ Consists of layers.
 
 ![Layers](../img/container-layers.png)
 
-When downloading container image, each layer -- with unique id -- is downloaded separately, but Docker caches locally, so only new layers downloaded. Aim to minimize number of layers. Can only write to top layer, everything below is read-only.
+When downloading image, each layer -- with unique id -- downloaded separately, but Docker caches locally, so only new layers downloaded. Aim to minimize number of layers. Can only write to top layer, everything below is read-only.
 
 ## Registry
 
